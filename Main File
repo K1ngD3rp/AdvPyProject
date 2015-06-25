@@ -1,0 +1,23 @@
+#impossible platformer?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main loop :D
+while not done:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            done = True
+            
+    screen.fill(WHITE)
